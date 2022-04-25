@@ -1,6 +1,6 @@
 {
   "name": "goodbook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Return the Books, Chapters and Verses of the Holy Bible (KJV)",
   "main": "index.js",
   "type": "module",
