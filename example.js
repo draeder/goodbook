@@ -1,9 +1,4 @@
-# GoodBook
-Return Books, Chapters and Verses of the Holy Bible (KJV)
-
-## Example
-```js
-import GoodBook from 'goodbook'
+import GoodBook from './index.js'
 
 const goodBook = new GoodBook()
 
@@ -21,4 +16,3 @@ let randomVerse = goodBook.getRandom('verse')
 goodBook.on('verse', results => {
   console.log(results.book + ' ' + results.chapter + ':' + results.verse, '-', results.text)
 })
-```
